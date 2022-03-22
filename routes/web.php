@@ -20,3 +20,6 @@ Route::get('/', function () {
 // });
 
 Route::get('/hello', 'PageController@hello');
+Route::get('/', 'PageController@index');
+Route::get('/about', 'PageController@about');
+Route::get('/services', 'PageController@services');
