@@ -26,10 +26,15 @@ class PageController extends Controller
     }
 
     public function about(){
-        return view('pages/about');
+        $title = 'About Page';
+        return view('pages/about')->with('title', $title);
     }
 
     public function services(){
-        return view('pages/services');
+         $data = array(
+            'title' => 'Services Page',
+            'services' => ['Web Design', 'Development', 'SEO']
+        );
+        return view('pages/services')->with($data);
     }
 }

@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-        <h1>About</h1>
-        <p>this is about section</p>
+         <h1>{{ $title }}</h1>
+        <p>this is  theabout section</p>
 @endsection
 
 

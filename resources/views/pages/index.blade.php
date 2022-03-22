@@ -2,5 +2,5 @@
 
 @section('content')
         <h1>{{ $title }}</h1>
-        <p>this website is cerated using laravel</p>
+        <p>this website is created using laravel</p>
 @endsection
