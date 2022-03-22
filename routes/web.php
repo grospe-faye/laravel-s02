@@ -19,4 +19,4 @@ Route::get('/', function () {
 //     return view('hello');
 // });
 
-Route::get('/hello', 'PageController@hello')
+Route::get('/hello', 'PageController@hello');
