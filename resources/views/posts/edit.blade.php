@@ -2,7 +2,11 @@
 
 @section('content')
 	<h1>Edit</h1>
-	<form method="POST" action="">
+	<form method="POST" action="/posts/{{ $post->id }}">
+		@csrf
+		<!-- spoofing -->
+		<input type="hidden" name="_method" value="PUT">
+	
 		<div class="form-group">
 		    <label for="title">Title</label>
 		    <input type="text" class="form-control" name="title" value="{{ $post->title }}">

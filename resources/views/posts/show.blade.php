@@ -8,5 +8,12 @@
 		{{ $post->body }}
 	</p>
 	<hr>
-	<a href="/posts/{{ $post->id }}/edit" class="btn btn-danger">Edit</a>
+	
+    <form method ="POST" action="/posts/{{$post->id}}">
+	    @csrf
+	    <a href="/posts/{{ $post->id }}/edit" class="btn btn-primary">Edit</a>
+	    <input type="hidden" name="_method" value="DELETE">
+	    <button class="btn btn-danger">Delete</button>
+    </form>
+
 @endsection
