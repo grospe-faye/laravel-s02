@@ -7,4 +7,6 @@
 	<p>
 		{{ $post->body }}
 	</p>
+	<hr>
+	<a href="/posts/{{ $post->id }}/edit" class="btn btn-danger">Edit</a>
 @endsection

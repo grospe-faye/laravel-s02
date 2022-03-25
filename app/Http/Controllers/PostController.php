@@ -16,7 +16,7 @@ class PostController extends Controller
     {
         // $posts = Post::all();
         // $posts = Post::orderBy('title', 'desc')->take(1)->get();
-        $posts = Post::orderBy('title', 'desc')->paginate(1);
+        $posts = Post::orderBy('title', 'desc')->paginate(3);
         // return Post::where('title', 'Second Post')->get();
         return view('posts.index')->with('posts', $posts);
     }
@@ -73,7 +73,8 @@ class PostController extends Controller
      */
     public function edit($id)
     {
-        //
+        $post = Post::find($id);
+        return view('posts.edit')->with('post', $post);
     }
 
     /**

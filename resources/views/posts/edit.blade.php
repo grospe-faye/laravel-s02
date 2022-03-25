@@ -1,0 +1,17 @@
+@extends('layouts.app')
+
+@section('content')
+	<h1>Edit</h1>
+	<form method="POST" action="">
+		<div class="form-group">
+		    <label for="title">Title</label>
+		    <input type="text" class="form-control" name="title" value="{{ $post->title }}">
+	    </div>
+
+		<div class="form-group">
+		    <label for="body">Body</label>
+		    <textarea class="form-control" rows="3" name="body">{{ $post->body }}</textarea>
+		</div>
+		<button class="btn btn-primary" type="submit">Update</button>
+	</form>
+@endsection
