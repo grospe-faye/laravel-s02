@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="{{asset('/css/app.css')}}">
 
-        <title>Laravel</title>
+        <title>Kwaderno</title>
 
     </head>
     <body>
