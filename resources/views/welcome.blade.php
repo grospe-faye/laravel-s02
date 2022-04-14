@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    PHP Laravel
+                    Kwaderno
                 </div>
 
                 <div class="links">
