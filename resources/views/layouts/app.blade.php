@@ -22,7 +22,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md shadow-sm navbar navbar-light" style="background-color: #e3f2fd;">
+        <nav class="navbar navbar-expand-md shadow-sm navbar navbar-light" style="background-color: #ADDEC7;">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <!-- {{ config('app.name', 'Kwaderno') }} -->
@@ -74,7 +74,7 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main class="py-4" style="">
             @yield('content')
         </main>
     </div>
