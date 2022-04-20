@@ -24,7 +24,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-md shadow-sm navbar navbar-light" style="background-color: #CBB49E;">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
+                <a class="navbar-brand" href="{{ url('/') }}" style="color: #FFF8EE; font-weight: bold;">
                     <!-- {{ config('app.name', 'Kwaderno') }} -->
                     Kwaderno
                 </a>
