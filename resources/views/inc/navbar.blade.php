@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg mb-3 navbar navbar-light" style="background-color: #B4D9F2;">
-  <a class="navbar-brand" href="#">Kwaderno</a>
+<nav class="navbar navbar-expand-lg mb-3 navbar navbar-light" style="background-color: #CBB49E;">
+  <a class="navbar-brand" href="#" style="color: #FFEBCC;">Kwaderno</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
