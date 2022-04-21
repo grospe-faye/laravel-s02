@@ -4,6 +4,7 @@
 <h1>Posts</h1>
 	@if(count($posts) > 0)
 	@foreach($posts as $post)
+	
 		<div class="card bg-light mb-3" style="max-width: 18rem;">
 			<div class="card-header">
 			</div>
@@ -15,6 +16,7 @@
 				</div>
 			</div>
 		</div>
+
 @endforeach
 	@else
 		<p>No posts found</p>
