@@ -2,7 +2,7 @@
 
 @section('content')
 	<h1>Create</h1>
-	<form method="POST" action="/home">
+	<form method="POST" action="/posts">
 		@csrf
 		<div class="form-group">
 		    <label for="title">Title</label>
