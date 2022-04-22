@@ -6,7 +6,7 @@
 	@foreach($posts as $post)
 	
 		<div class="card bg-light mb-3" style="max-width: 18rem;">
-			<div class="card-header">
+			<div class="card-header" style="background-color: #CBB49E;">
 			</div>
 				<div class="card-body">
 						<h4 class="card-title"><a href="/posts/{{$post->id}}">{{$post->title}}</a></h4>
