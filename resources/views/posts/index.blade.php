@@ -1,7 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-<h1>Posts</h1>
+<div class="container">
+	<div class="row justify-content-center">
+		<div class="col-md-8">
+		<h1>Posts</h1>
 	@if(count($posts) > 0)
 	@foreach($posts as $post)
 	
@@ -15,9 +18,12 @@
 					{{ $posts->links() }}
 				</div>
 			</div>
+			@endforeach
+			</div>
 		</div>
+	</div>
+</div>
 
-@endforeach
 	@else
 		<p>No posts found</p>
 	@endif
