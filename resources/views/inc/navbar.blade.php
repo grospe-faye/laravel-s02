@@ -5,10 +5,10 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-link " href="/">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link " href="/" style="color: #FFEBCC;">Home <span class="sr-only">(current)</span></a>
       <!-- <a class="nav-link" href="/about">About</a>
       <a class="nav-link" href="/services">Services</a> -->
-      <a class="nav-link" href="/posts">Blogs</a>
+      <a class="nav-link" href="/posts" style="color: #FFEBCC;">Blogs</a>
     </div>
   </div>
   <!-- Right Side Of Navbar -->
@@ -16,11 +16,11 @@
  <!-- Authentication Links -->
     @guest
         <li class="nav-item">
-          <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+          <a class="nav-link" href="{{ route('login') }}" style="color: #FFEBCC;">{{ __('Login') }}</a>
        </li>
         @if (Route::has('register'))
             <li class="nav-item">
-                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                <a class="nav-link" href="{{ route('register') }}" style="color: #FFEBCC;">{{ __('Register') }}</a>
             </li>
         @endif
         @else
