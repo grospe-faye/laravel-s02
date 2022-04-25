@@ -22,7 +22,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md shadow-sm navbar navbar-light" style="background-color: #AA7B5A;">
+        <nav class="navbar navbar-expand-md shadow-sm navbar navbar-light" style="background-color: #a77755;">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}" style="color: #FFF8EE; font-weight: bold;">
                     <!-- {{ config('app.name', 'Kwaderno') }} -->
