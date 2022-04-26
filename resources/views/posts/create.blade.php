@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-	<h1>Create</h1>
+<div class="col-md-8">
+<h1>Create</h1>
 	<form method="POST" action="/posts">
 		@csrf
 		<div class="form-group">
@@ -15,4 +16,6 @@
 		</div>
 		<button class="btn btn-primary" type="submit">Submit</button>
 	</form>
+</div>
+	
 @endsection
