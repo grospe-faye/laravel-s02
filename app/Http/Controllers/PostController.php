@@ -97,7 +97,7 @@ class PostController extends Controller
         $post->body = $request->input('body');
         $post->save();
 
-        return redirect('/home')->with('success', 'Post Updated');
+        return redirect('/home')->with('success', 'Post Updated Successfully!');
     }
 
     /**
@@ -111,6 +111,6 @@ class PostController extends Controller
         $post = Post::find($id);
         $post->delete();
 
-        return redirect('/home')->with('success', 'Post Deleted');
+        return redirect('/home')->with('success', 'Post Deleted Successfully!');
     }
 }
