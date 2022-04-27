@@ -15,11 +15,13 @@
 						<h4 class="card-title"><a href="/posts/{{$post->id}}">{{$post->title}}</a></h4>
 						<p class="card-text">{{$post->body}}</p>
 						<p class="card-text"><small class="text-muted">Written on {{$post->created_at}}</small></p>
-					{{ $posts->links() }}
+					
 				</div>
 			</div>
 			@endforeach
+			{{ $posts->links() }}
 			</div>
+			
 		</div>
 	</div>
 </div>
