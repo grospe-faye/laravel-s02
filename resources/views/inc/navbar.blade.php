@@ -5,7 +5,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-link " href="/" style="color: #FFEBCC;">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link " href="/home" style="color: #FFEBCC;">Home <span class="sr-only">(current)</span></a>
       <!-- <a class="nav-link" href="/about">About</a>
       <a class="nav-link" href="/services">Services</a> -->
       <a class="nav-link" href="/posts" style="color: #FFEBCC;">Blogs</a>
