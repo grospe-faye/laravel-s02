@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="col-md-8">
 	<h1>Edit</h1>
 	<form method="POST" action="/posts/{{ $post->id }}">
 		@csrf
@@ -18,4 +19,5 @@
 		</div>
 		<button class="btn btn-primary" type="submit">Update</button>
 	</form>
+</div>
 @endsection
