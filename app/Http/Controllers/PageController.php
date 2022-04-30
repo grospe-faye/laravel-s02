@@ -21,7 +21,7 @@ class PageController extends Controller
     }
 
     public function index(){
-        $title = 'Kwaderno';
+        $title = 'Welcome to Kwaderno!';
         return view('pages/index')->with('title', $title);
     }
 
