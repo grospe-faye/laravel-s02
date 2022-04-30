@@ -9,6 +9,8 @@
                         </div>
                         <div class="col text-center my-auto">
                                  <h1>{{ $title }}</h1>
+                                 <p>Borrowed from Spanish cuaderno (“notebook”).</p>
+                                 <p>A set of sheets of paper, printed or blank, bound together with a spiral or folded, nested or sewn, forming a thin book and used for writing things down.</p>
                                  <p>An online journal where you can document your day-to-day experiences and express yourself through writing.</p>
                         </div>
                 </div>
