@@ -64,7 +64,7 @@
                   </form>
                   </div>
             </li>
-                          @endguest                         
+     @endguest                         
   </ul>
 </nav>
 
